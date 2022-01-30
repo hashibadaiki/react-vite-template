@@ -7,6 +7,8 @@ const sampleStyle = css`
   color: red;
 `;
 
+let hoge;
+
 export const App = () => {
   return (
     <div>
