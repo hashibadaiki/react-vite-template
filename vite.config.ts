@@ -9,11 +9,10 @@ export default defineConfig({
     open: true,
   },
   root: "./src",
+  base: "./",
   build: {
     // root (= ./src) から見た相対パスで指定
     outDir: "../public",
-    // git hub pages用
-    // outDir: '../docs',
     emptyOutDir: true,
   },
   plugins: [react(), VitePWA()],
