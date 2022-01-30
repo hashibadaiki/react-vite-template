@@ -1,9 +1,0 @@
-{
-  "root": true,
-  "env": {
-    "browser": true,
-    "es6": true
-  },
-  // prettierとの競合を避ける記述。 prettierを一番最後にする
-  "extends": ["eslint:recommended", "prettier"]
-}
