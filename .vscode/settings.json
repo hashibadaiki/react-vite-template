@@ -1,59 +1,22 @@
 {
-  // テキストコピー時に書式設定を含める
   "editor.copyWithSyntaxHighlighting": false,
-  // ドラッグアンドドロップで選択範囲のテキストを移動できるようにする
   "editor.dragAndDrop": false,
-  // 貼り付けを行ったときに自動でフォーマット
   "editor.formatOnPaste": true,
-  // ファイル保存時に自動でフォーマット
   "editor.formatOnSave": true,
-  // 制御文字を表示
   "editor.renderControlCharacters": true,
-  // エディター上での空白文字の表示方法
   "editor.renderWhitespace": "all",
-  // 行の折りたたみ記号の表示方法
   "editor.showFoldingControls": "always",
-  // 1つのタブに相当する半角スペースの数
+  "editor.defaultFormatter": "esbenp.prettier-vscode",
   "editor.tabSize": 2,
-  // 単語の区切り文字
   "editor.wordSeparators": "`~!@#$%^&*()-=+[{]}\\|;:'\",.<>/?　、。！？「」【】『』（）",
-  // 行の折り返し表示
   "editor.wordWrap": "on",
-  // 名前重複時の名前付け規則
   "explorer.incrementalNaming": "smart",
-  // 言語に対するファイルの関連付け
-  "files.associations": {
-    // あれば記述する
-  },
-  // 改行コードの規定値
-  "files.eol": "\n",
-  // 非表示にするファイル・ディレクトリのパスのパターン
-  "files.exclude": {
-    // あれば記述する
-  },
-  // ファイル保存時に行末に改行を挿入
   "files.insertFinalNewline": true,
-  // ファイル保存時に最終行以降の空行を削除
   "files.trimFinalNewlines": true,
-  // ファイル保存時に各行の末尾にある半角スペースを削除
   "files.trimTrailingWhitespace": true,
-  // 監視対象から外すファイル・ディレクトリのパスのパターン
-  "files.watcherExclude": {
-    // あれば記述する
-  },
-  // 検索対象から外すファイル・ディレクトリのパスのパターン
-  "search.exclude": {
-    //あれば記述する
-  },
-  // 検索ビューの検索結果に行数を併記
   "search.showLineNumbers": true,
-  // アクティブなターミナルセッションがある場合、終了時に確認を行う
   "terminal.integrated.confirmOnExit": "always",
-  // ターミナルで選択したテキストをクリップボードにコピー
   "terminal.integrated.copyOnSelection": true,
-  // エディターのタブのサイズ
   "workbench.editor.tabSizing": "fit",
-  // 起動時に表示するエディター
-  "workbench.startupEditor": "readme",
-  "editor.defaultFormatter": "esbenp.prettier-vscode"
+  "workbench.startupEditor": "readme"
 }
