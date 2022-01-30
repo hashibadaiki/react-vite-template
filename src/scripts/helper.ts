@@ -1,3 +1,3 @@
 export const sampleScript = () => {
-  console.log("sample");
+  console.log('sample');
 };

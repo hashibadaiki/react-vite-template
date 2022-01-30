@@ -1,5 +1,5 @@
-import react from 'react'
-import { Atom } from '../atoms/Atom'
+import react from 'react';
+import { Atom } from '../atoms/Atom';
 
 export const Molecule = () => {
   return (
@@ -7,5 +7,5 @@ export const Molecule = () => {
       <div>Molecule</div>
       <Atom />
     </div>
-  )
-}
+  );
+};

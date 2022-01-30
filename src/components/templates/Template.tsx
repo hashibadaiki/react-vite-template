@@ -1,5 +1,5 @@
-import react from 'react'
-import { Molecule } from '../molecules/Molecule'
+import react from 'react';
+import { Molecule } from '../molecules/Molecule';
 
 export const Template = () => {
   return (
@@ -7,5 +7,5 @@ export const Template = () => {
       <div>Template</div>
       <Molecule />
     </div>
-  )
-}
+  );
+};

@@ -1,5 +1,5 @@
-import react from 'react'
-import { Template } from '../components/templates/Template'
+import react from 'react';
+import { Template } from '../components/templates/Template';
 
 export const App = () => {
   return (
@@ -7,5 +7,5 @@ export const App = () => {
       <div>App</div>
       <Template />
     </div>
-  )
-}
+  );
+};

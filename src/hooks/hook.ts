@@ -1,3 +1,3 @@
 export const sampleHook = () => {
-  console.log("sample");
+  console.log('sample');
 };
