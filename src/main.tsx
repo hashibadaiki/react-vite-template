@@ -1,7 +1,6 @@
 import React from 'react'
 import ReactDOM from 'react-dom'
-import './index.css'
-import App from './App'
+import { App } from './pages/App'
 import { registerSW } from 'virtual:pwa-register'
 
 ReactDOM.render(
