@@ -14,8 +14,6 @@ module.exports = {
   arrowParens: "always",
   rangeStart: 0,
   rangeEnd: Infinity,
-  parser: "none",
-  filepath: "none",
   requirePragma: false,
   insertPragma: false,
   proseWrap: "preserve",
