@@ -1,4 +1,3 @@
-import react from 'react';
 import { Atom } from '../atoms/Atom';
 
 export const Molecule = () => {

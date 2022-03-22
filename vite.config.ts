@@ -9,6 +9,11 @@ export default defineConfig({
   server: {
     open: true,
   },
+  'import/resolver': {
+    alias: {
+      map: [['@', './src']],
+    },
+  },
   root: './src',
   base: './',
   build: {

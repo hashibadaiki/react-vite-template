@@ -1,5 +1,3 @@
-import react from 'react';
-
 const test = 'test';
 
 export const Atom = () => {
