@@ -9,13 +9,11 @@ export default defineConfig({
   server: {
     open: true,
   },
-  'import/resolver': {
-    alias: {
-      map: [['@', './src']],
-    },
-  },
   root: './src',
   base: './',
+  resolve: {
+    alias: [{ find: '~', replacement: '/src' }],
+  },
   build: {
     // root (= ./src) から見た相対パスで指定
     outDir: '../public',
