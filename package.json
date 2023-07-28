@@ -2,7 +2,9 @@
   "name": "react-practice",
   "version": "0.0.0",
   "scripts": {
-    "dev": "vite",
+    "dev": "run-p dev:scss vite",
+    "vite": "vite",
+    "dev:scss": "typed-scss-modules src --watch",
     "build": "tsc && vite build",
     "preview": "vite preview",
     "format": "prettier --write src/*",
